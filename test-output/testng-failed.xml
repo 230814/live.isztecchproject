@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail]">
+  <test thread-count="5" name="live(failed)">
+    <classes>
+      <class name="testPage.gmailTest">
+        <methods>
+          <include name="testRun"/>
+        </methods>
+      </class> <!-- testPage.gmailTest -->
+    </classes>
+  </test> <!-- live(failed) -->
+</suite> <!-- Failed suite [Gmail] -->
